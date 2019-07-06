@@ -1,5 +1,4 @@
 .header-subscribe-button{
-    border-radius:  18px;
     float : left;
     color : #ff0884 !important;
 }
@@ -16,6 +15,15 @@
 .navbar{ 
     box-shadow: 1px 1px 10px #ccc;
     background-color :#fff;
+}
+.nav-link{
+    font-size: 12px;
+}
+.nav-item{
+    padding : 10px 30px;
+}
+.footer-bg{
+    background-color : #95a5a6;
 }
 .nav-link:active, .nav-link:hover{
     color : #ff0884;

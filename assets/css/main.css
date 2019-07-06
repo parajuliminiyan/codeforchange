@@ -1,0 +1,60 @@
+.header-subscribe-button{
+    border-radius:  18px;
+    float : left;
+    color : #ff0884 !important;
+}
+
+.header-subscribe-button:hover{ 
+    color : #ffffff !important;
+}
+
+.header-medium-button{
+    margin-left : 20px;
+    float : left;
+    border-radius : 0;
+}
+
+.times-new-roman{
+    font-family: 'Times New Roman', Times, serif;
+    padding : 5px;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 600px) {
+    .header-subscribe-button {
+        width : 75%;
+        float : left;
+    }
+    .header-medium-button{
+        margin-left: 5%;
+        width : 20%;
+        float : left;
+    }
+    .background {
+        background-image: url('../images/bg.svg');
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+    }
+  }
+  
+  .navbar-logo{
+      height : auto;
+      width : 100px;
+  }
+
+  .jumbotron-header{
+      background-color: #ff0884;
+      border-radius : 5px;
+      color : #ffffff;
+      padding : 10px;
+  }
+  .background {
+      background-image: url('../images/bg.svg');
+      background-repeat: no-repeat;
+      background-position-x: right;
+  }
+
+
+
+  .jumbotron{
+      background-color: inherit !important;
+  }

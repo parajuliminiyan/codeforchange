@@ -16,8 +16,9 @@ $(document).ready(function(){
         rewind : true,
         dots : true,
         autoplay : true,
+        autoplayTimeout : 3000,
+        autoplayHoverPause : true,
         responsive : {
-            autoplayHoverPause : false,
             loop : true,
             nav : true,
             rewind : true,
